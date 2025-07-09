@@ -21,7 +21,7 @@ def send_to_discord(product):
         "content": f"🛍️ **Nuevo producto detectado!**\n"
                    f"**{product['title']}**\n"
                    f"{product['vendor']}\n"
-                   f"{product['handle']}\n"
+                   #f"{product['handle']}\n"
                    f"https://{URL_CORTA.split('//')[1].split('/')[0]}/products/{product['handle']}"
     }
     try:
